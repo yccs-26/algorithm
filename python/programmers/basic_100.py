@@ -12,3 +12,11 @@ def solution(a, b):
 # 이때 숫자를 사용할 때는 문장 앞에 f를 붙여준다.
 # n = 5
 # print(f"n = {n}")
+
+str, n = input().strip().split(' ')
+n = int(n)
+print(str*n)
+
+str = input()
+print(str.swapcase()) # 문자열 대소문자 변환
+
